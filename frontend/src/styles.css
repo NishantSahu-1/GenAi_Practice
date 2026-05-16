@@ -1,0 +1,127 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, system-ui, sans-serif;
+  background: #f6f8fb;
+  color: #111827;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #eef2ff;
+}
+
+.app-shell {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+header {
+  margin-bottom: 24px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: clamp(2rem, 2.5vw, 3rem);
+}
+
+header p {
+  margin: 12px 0 0;
+  color: #4b5563;
+}
+
+.query-form {
+  display: grid;
+  gap: 16px;
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+}
+
+label {
+  font-weight: 600;
+}
+
+textarea {
+  width: 100%;
+  min-height: 140px;
+  resize: vertical;
+  padding: 14px;
+  border-radius: 14px;
+  border: 1px solid #d1d5db;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+button {
+  width: fit-content;
+  background: #4338ca;
+  color: #fff;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.error-box {
+  background: #fee2e2;
+  color: #991b1b;
+  padding: 16px;
+  border-radius: 14px;
+  border: 1px solid #fecaca;
+}
+
+.result-panel {
+  margin-top: 24px;
+  display: grid;
+  gap: 20px;
+}
+
+.result-block {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+}
+
+.result-block h2 {
+  margin-top: 0;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+thead th,
+tbody td {
+  padding: 12px 14px;
+  border: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+thead th {
+  background: #f3f4f6;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+footer {
+  margin-top: 28px;
+  color: #6b7280;
+}

@@ -1,0 +1,75 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Push to GitHub",
+			"type": "shell",
+			"command": "git add . && git commit -m \"Add project files\" && git push origin main"
+		},
+		{
+			"label": "Push to GitHub",
+			"type": "shell",
+			"command": "git add . ; git commit -m \"Add project files\" ; git push origin main"
+		},
+		{
+			"label": "Git Add",
+			"type": "shell",
+			"command": "git add ."
+		},
+		{
+			"label": "Git Commit",
+			"type": "shell",
+			"command": "git commit -m \"Add project files\""
+		},
+		{
+			"label": "Git Commit",
+			"type": "shell",
+			"command": "git commit -m 'Add project files'"
+		},
+		{
+			"label": "Git Commit",
+			"type": "shell",
+			"command": "git commit --message=\"Add project files\""
+		},
+		{
+			"label": "Check Remote",
+			"type": "shell",
+			"command": "git remote -v"
+		},
+		{
+			"label": "Git Status",
+			"type": "shell",
+			"command": "git status"
+		},
+		{
+			"label": "Git Commit",
+			"type": "shell",
+			"command": "git commit -m 'Add project files'"
+		},
+		{
+			"label": "Add VSCode Tasks",
+			"type": "shell",
+			"command": "git add .vscode/tasks.json"
+		},
+		{
+			"label": "Git Commit Final",
+			"type": "shell",
+			"command": "git commit -m 'Add project files'"
+		},
+		{
+			"label": "Set Git Name",
+			"type": "shell",
+			"command": "git config --global user.name 'Nishant Sahu'"
+		},
+		{
+			"label": "Set Git Email",
+			"type": "shell",
+			"command": "git config --global user.email 'nishant.sahu@example.com'"
+		},
+		{
+			"label": "Git Commit Now",
+			"type": "shell",
+			"command": "git commit -m 'Add project files'"
+		}
+	]
+}
